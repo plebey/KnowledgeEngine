@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and code analysis
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local AI instructions
+AGENTS.md
+PROJECT_MAP.md
+
+# Downloaded and processed documents
+/data/raw/
+/data/processed/
+/data/indexes/
+
+# AI models and database storage
+/qdrant_storage/
+/ollama_data/
+/models/
+
+# Logs
+*.log
+/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
